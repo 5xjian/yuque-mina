@@ -1,0 +1,6 @@
+<!--pages/blog/index.wxml-->
+<i-panel>
+<block wx:for="{{docData}}" wx:key="item">
+    <i-cell data-slug="{{item.slug}}" title="{{item.title}}" label="{{item.description}}" bind:click="handleClick" is-link value="详细信息"></i-cell>
+</block>
+</i-panel>

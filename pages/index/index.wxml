@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class='index'>
+<view class='center'>
+  <i-avatar src="{{ userData.avatar_url }}" size="large" shape="circle"></i-avatar>
+</view>
+<view class="center">
+<text>{{userData.name}}</text>
+</view>
+<view class='center'>
+<text>{{jinrishici}}</text>
+</view>
+<i-button bind:click="handleClick">进入博客</i-button>
+</view>
